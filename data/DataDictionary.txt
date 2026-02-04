@@ -1,0 +1,23 @@
+Below is the Data Dictionary for our ExoPlanet data, provided by NASA
+
+pl_name: Planet name most commonly used in the literature
+
+pl_rade: Length of a line segment from the center of the planet to its surface, 
+    measured in units of radius of the Earth
+
+pl_bmasse: Best planet mass estimate available, in order of preference: 
+    Mass, M*sin(i)/sin(i), or M*sin(i), depending on availability, 
+    and measured in Earth masses
+
+pl_orbper: Time the planet takes to make a complete orbit around the host star or system
+
+pl_eqt: The equilibrium temperature of the planet as modeled by a black body 
+    heated only by its host star, or for directly imaged planets, 
+    the effective temperature of the planet required to match the measured 
+    luminosity if the planet were a black body
+
+st_teff: Temperature of the star as modeled by a black body emitting
+    the same total amount of electromagnetic radiation
+
+st_rad: Length of a line segment from the center of the star to its surface,
+    measured in units of radius of the Sun

@@ -1,0 +1,31 @@
+import streamlit as st
+
+st.set_page_config(
+    page_title="Caleb Combs | Data Science Portfolio",
+    page_icon="📊",
+    layout="wide"
+)
+
+# about
+st.title("Hi, I'm Caleb")
+st.subheader("Data Science & Machine Learning Student")
+
+st.write(
+    """
+    I'm a student interested in data science, machine learning, and scientific data analysis.
+    This portfolio highlights projects I've worked on using real-world datasets, 
+    with a focus on learning, exploration, and clear communication.
+    """
+)
+
+st.markdown("---")
+st.header("Connect with me:")
+
+st.markdown(
+    """
+    - **GitHub:** https://github.com/caparcom
+    - **LinkedIn:** https://www.linkedin.com/in/calebcombscaparcom/
+    - **Email:** caleb_combs@yahoo.com
+    """
+)
+
