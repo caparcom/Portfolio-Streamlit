@@ -169,8 +169,8 @@ with st.expander("*Preprocessing"):
     st.write("""
 To reduce skew and scale differences, selected features 
     (planet radius, planet mass, orbital period, and stellar radius) 
-    were first log-transformed. All features were then standardized and rescaled 
-    using Min-Max normalization before visualization and clustering.
+    were first log-transformed. All features were then standardized (standard scalar) 
+    prior to Kmeans analysis and rescaled using Min-Max normalization before radar visualization.
 """)
 
 st.header("Summary")
@@ -178,7 +178,8 @@ st.write("""
 In this project, I applied PCA and K-Means clustering to explore structure within 
     exoplanet data after cleaning and scaling the features. While the clustering reveals 
     groupings among planets, the results also highlight how detection methods and 
-    observational bias influence the data we have available.
+    observational bias influence the data we have available (larger, hotter things are much easier 
+    to see!).
 
 Overall, this project helped reinforce my understanding of unsupervised learning and 
     the importance of interpreting results in context, rather than treating clusters as 
